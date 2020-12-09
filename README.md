@@ -6,13 +6,15 @@ stm32:stm32f103mini   LORA：透明传输
 
 VL53L0X:
 	PA12(SCL),PA11(SDA),PA5(XSH),PA4(INT)
+	
 LORA:
 	VCC<------------>5V
 	GND<------------>GND 
 	TXD<------------>PB11
 	RXD<------------>PB10
 	AUX<------------>PB1   
-	MD0<------------>PB8                                                                           
+	MD0<------------>PB8     
+	
 GPS:
 	RX---PA2
 	TX---PA3
